@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.yellow{
+    color: #916b00;
+    font-size: 50px;
+}
+header{
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.banner_image img{
+    width: 600px;
+}
+.banner .text{
+    width: 400px;
+}
+.banner .text h1{
+    font-size: 40px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #916b00;
+    border-radius: 20px;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #000;
+    color: #433203
+}
+/* Menu section */
+.menu-section {
+    padding: 30px;   
+    text-align: center;
+    background: url(img/bg-2.png)
+}
+.card_section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu-section .text{
+    padding: 50px 0px;
+}
+.menu-section .box{
+    margin: 10px;
+}
+.menu-section .card{
+    padding: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 8px;
+}
+.menu-section .card img{
+    width: 200px;
+    height: 200px;
+}
+/* //item section */
+.item_section{
+    margin: 30px 0;
+    padding: 30px;
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+}
+.item_section .text{
+    text-align: center;
+}
+.item_section .card{
+    max-width: 320px;
+    box-shadow: 0px 0px 30px #cfe6f5;
+}
+.item_section .card img{
+    width: 100%;
+}
+.item_section .card article{
+    padding: 20px;
+}
+.item_section .box{
+    padding: 10px;
+}
+footer{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #656565;
+}
+
+.animate{
+    animation: animate 5s infinite;
+}
+@keyframes animate
+{
+    
+    50%{
+        transform: rotate(4deg) scale(1.03);
+        filter: hue-rotate(20deg);
+    }
+
+    
+}
